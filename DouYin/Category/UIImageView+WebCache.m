@@ -44,6 +44,7 @@
         NSString *percentStr = [NSString stringWithFormat:@"%.1fw",(CGFloat)receivedSize/(CGFloat)expectedSize];
         CGFloat percent = [percentStr floatValue];
         dispatch_main_sync_safe(^{
+            //MARK:what the fuck is this below? tobeknown
             progressBlock(percent);
         });
     } completedBlock:^(NSData *data, NSError *error, BOOL finished) {

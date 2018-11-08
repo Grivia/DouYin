@@ -417,6 +417,7 @@
     __block NSString *key = url.absoluteString;
     //初始化组合任务WebCombineOperation
     __block WebCombineOperation *operation = [WebCombineOperation new];
+    //防止引用循环
     __weak __typeof(self)wself = self;
     //赋值组合任务WebCombineOperation中的查找缓存NSOperation任务
     operation.cacheOperation = [[WebCacheHelpler sharedWebCache] queryDataFromMemory:key cacheQueryCompletedBlock:^(NSData *data, BOOL hasCache) {
