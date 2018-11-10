@@ -24,6 +24,13 @@
 		245C029A218C4CAB004C7414 /* WebPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C028C218C4CAB004C7414 /* WebPImage.m */; };
 		245C02A4218C4D5A004C7414 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C029C218C4D5A004C7414 /* BaseViewController.m */; };
 		245C02A5218C4D5A004C7414 /* UserHomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C02A1218C4D5A004C7414 /* UserHomePageController.m */; };
+		24A021E921952347006AB284 /* comments.json in Resources */ = {isa = PBXBuildFile; fileRef = 24A021E221952346006AB284 /* comments.json */; };
+		24A021EA21952347006AB284 /* favorites.json in Resources */ = {isa = PBXBuildFile; fileRef = 24A021E321952346006AB284 /* favorites.json */; };
+		24A021EB21952347006AB284 /* groupchats.json in Resources */ = {isa = PBXBuildFile; fileRef = 24A021E421952346006AB284 /* groupchats.json */; };
+		24A021EC21952347006AB284 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 24A021E521952347006AB284 /* user.json */; };
+		24A021ED21952347006AB284 /* emotion.json in Resources */ = {isa = PBXBuildFile; fileRef = 24A021E621952347006AB284 /* emotion.json */; };
+		24A021EE21952347006AB284 /* awemes.json in Resources */ = {isa = PBXBuildFile; fileRef = 24A021E721952347006AB284 /* awemes.json */; };
+		24A021EF21952347006AB284 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24A021E821952347006AB284 /* Emoticons.bundle */; };
 		ABDDD8232DA58F6094C1A650 /* libPods-DouYin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDEE07CE7F73EAC40D48D59 /* libPods-DouYin.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +70,13 @@
 		245C02A1218C4D5A004C7414 /* UserHomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHomePageController.m; sourceTree = "<group>"; };
 		245C02A2218C4D5A004C7414 /* UserHomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHomePageController.h; sourceTree = "<group>"; };
 		245C02A3218C4D5A004C7414 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		24A021E221952346006AB284 /* comments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = comments.json; path = DouYin/Resource/comments.json; sourceTree = SOURCE_ROOT; };
+		24A021E321952346006AB284 /* favorites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = favorites.json; path = DouYin/Resource/favorites.json; sourceTree = SOURCE_ROOT; };
+		24A021E421952346006AB284 /* groupchats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = groupchats.json; path = DouYin/Resource/groupchats.json; sourceTree = SOURCE_ROOT; };
+		24A021E521952347006AB284 /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = user.json; path = DouYin/Resource/user.json; sourceTree = SOURCE_ROOT; };
+		24A021E621952347006AB284 /* emotion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = emotion.json; path = DouYin/Resource/emotion.json; sourceTree = SOURCE_ROOT; };
+		24A021E721952347006AB284 /* awemes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awemes.json; path = DouYin/Resource/awemes.json; sourceTree = SOURCE_ROOT; };
+		24A021E821952347006AB284 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Emoticons.bundle; path = DouYin/Resource/Emoticons.bundle; sourceTree = SOURCE_ROOT; };
 		33DBA13D459BC16B6BDD53E9 /* Pods-DouYin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYin.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYin/Pods-DouYin.release.xcconfig"; sourceTree = "<group>"; };
 		3DDEE07CE7F73EAC40D48D59 /* libPods-DouYin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouYin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -179,6 +193,13 @@
 		245C0288218C4CAB004C7414 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				24A021E821952347006AB284 /* Emoticons.bundle */,
+				24A021E621952347006AB284 /* emotion.json */,
+				24A021E721952347006AB284 /* awemes.json */,
+				24A021E221952346006AB284 /* comments.json */,
+				24A021E321952346006AB284 /* favorites.json */,
+				24A021E421952346006AB284 /* groupchats.json */,
+				24A021E521952347006AB284 /* user.json */,
 				245C0289218C4CAB004C7414 /* Assets.xcassets */,
 			);
 			name = Resource;
@@ -322,8 +343,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A021EC21952347006AB284 /* user.json in Resources */,
+				24A021EF21952347006AB284 /* Emoticons.bundle in Resources */,
 				245C0299218C4CAB004C7414 /* Assets.xcassets in Resources */,
+				24A021EB21952347006AB284 /* groupchats.json in Resources */,
+				24A021EA21952347006AB284 /* favorites.json in Resources */,
 				245C025A218C4B80004C7414 /* LaunchScreen.storyboard in Resources */,
+				24A021EE21952347006AB284 /* awemes.json in Resources */,
+				24A021ED21952347006AB284 /* emotion.json in Resources */,
+				24A021E921952347006AB284 /* comments.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
