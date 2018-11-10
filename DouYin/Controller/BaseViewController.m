@@ -114,6 +114,7 @@
     UIImageView *background = [[UIImageView alloc] initWithFrame:self.view.bounds];
     background.clipsToBounds = YES;
     background.contentMode = UIViewContentModeScaleAspectFill;
+    //background.contentMode = UIViewContentModeCenter;
     background.image = [UIImage imageNamed:imageName];
     [self.view addSubview:background];
 }

@@ -31,6 +31,39 @@
 		24A021ED21952347006AB284 /* emotion.json in Resources */ = {isa = PBXBuildFile; fileRef = 24A021E621952347006AB284 /* emotion.json */; };
 		24A021EE21952347006AB284 /* awemes.json in Resources */ = {isa = PBXBuildFile; fileRef = 24A021E721952347006AB284 /* awemes.json */; };
 		24A021EF21952347006AB284 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24A021E821952347006AB284 /* Emoticons.bundle */; };
+		24A021F321967399006AB284 /* AVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A021F221967399006AB284 /* AVPlayerManager.m */; };
+		24A021F621967F85006AB284 /* AVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A021F521967F85006AB284 /* AVPlayerView.m */; };
+		24A0220D2196819E006AB284 /* AwemeListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A021F72196819B006AB284 /* AwemeListRequest.m */; };
+		24A0220E2196819E006AB284 /* PostCommentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A021F82196819C006AB284 /* PostCommentRequest.m */; };
+		24A0220F2196819E006AB284 /* DeleteCommentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A021F92196819C006AB284 /* DeleteCommentRequest.m */; };
+		24A022102196819E006AB284 /* CommentListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A021FA2196819C006AB284 /* CommentListRequest.m */; };
+		24A022112196819E006AB284 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A021FB2196819C006AB284 /* BaseRequest.m */; };
+		24A022122196819E006AB284 /* DeleteGroupChatRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A021FC2196819C006AB284 /* DeleteGroupChatRequest.m */; };
+		24A022132196819E006AB284 /* GroupChatListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A021FD2196819C006AB284 /* GroupChatListRequest.m */; };
+		24A022142196819E006AB284 /* UserRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A022012196819D006AB284 /* UserRequest.m */; };
+		24A022152196819E006AB284 /* VisitorRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A022022196819D006AB284 /* VisitorRequest.m */; };
+		24A022162196819E006AB284 /* PostGroupChatTextRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A022042196819D006AB284 /* PostGroupChatTextRequest.m */; };
+		24A022172196819E006AB284 /* PostGroupChatImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A022092196819D006AB284 /* PostGroupChatImageRequest.m */; };
+		24A0222A219681EE006AB284 /* GroupChatListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A02218219681EC006AB284 /* GroupChatListResponse.m */; };
+		24A0222B219681EE006AB284 /* CommentListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0221D219681ED006AB284 /* CommentListResponse.m */; };
+		24A0222C219681EE006AB284 /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0221E219681ED006AB284 /* BaseResponse.m */; };
+		24A0222D219681EE006AB284 /* GroupChatResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0221F219681ED006AB284 /* GroupChatResponse.m */; };
+		24A0222E219681EE006AB284 /* AwemeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A02223219681ED006AB284 /* AwemeResponse.m */; };
+		24A0222F219681EE006AB284 /* UserResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A02224219681ED006AB284 /* UserResponse.m */; };
+		24A02230219681EE006AB284 /* VisitorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A02225219681EE006AB284 /* VisitorResponse.m */; };
+		24A02231219681EE006AB284 /* AwemeListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A02227219681EE006AB284 /* AwemeListResponse.m */; };
+		24A02232219681EE006AB284 /* CommentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A02229219681EE006AB284 /* CommentResponse.m */; };
+		24A0223521968380006AB284 /* NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0223421968380006AB284 /* NetworkHelper.m */; };
+		24A0223821968394006AB284 /* WebSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0223721968394006AB284 /* WebSocketManager.m */; };
+		24A0224B2196842A006AB284 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0223A21968428006AB284 /* Comment.m */; };
+		24A0224C2196842A006AB284 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0223D21968428006AB284 /* User.m */; };
+		24A0224D2196842A006AB284 /* Visitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0223F21968428006AB284 /* Visitor.m */; };
+		24A0224E2196842A006AB284 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0224021968429006AB284 /* BaseModel.m */; };
+		24A0224F2196842A006AB284 /* Aweme.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0224221968429006AB284 /* Aweme.m */; };
+		24A022502196842A006AB284 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0224321968429006AB284 /* Music.m */; };
+		24A022512196842A006AB284 /* GroupChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0224421968429006AB284 /* GroupChat.m */; };
+		24A022522196842A006AB284 /* PictureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0224721968429006AB284 /* PictureInfo.m */; };
+		24A022532196842A006AB284 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A022492196842A006AB284 /* Video.m */; };
 		ABDDD8232DA58F6094C1A650 /* libPods-DouYin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDEE07CE7F73EAC40D48D59 /* libPods-DouYin.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +110,72 @@
 		24A021E621952347006AB284 /* emotion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = emotion.json; path = DouYin/Resource/emotion.json; sourceTree = SOURCE_ROOT; };
 		24A021E721952347006AB284 /* awemes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awemes.json; path = DouYin/Resource/awemes.json; sourceTree = SOURCE_ROOT; };
 		24A021E821952347006AB284 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Emoticons.bundle; path = DouYin/Resource/Emoticons.bundle; sourceTree = SOURCE_ROOT; };
+		24A021F121967399006AB284 /* AVPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerManager.h; sourceTree = "<group>"; };
+		24A021F221967399006AB284 /* AVPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerManager.m; sourceTree = "<group>"; };
+		24A021F421967F85006AB284 /* AVPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerView.h; sourceTree = "<group>"; };
+		24A021F521967F85006AB284 /* AVPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerView.m; sourceTree = "<group>"; };
+		24A021F72196819B006AB284 /* AwemeListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwemeListRequest.m; sourceTree = "<group>"; };
+		24A021F82196819C006AB284 /* PostCommentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostCommentRequest.m; sourceTree = "<group>"; };
+		24A021F92196819C006AB284 /* DeleteCommentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteCommentRequest.m; sourceTree = "<group>"; };
+		24A021FA2196819C006AB284 /* CommentListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentListRequest.m; sourceTree = "<group>"; };
+		24A021FB2196819C006AB284 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		24A021FC2196819C006AB284 /* DeleteGroupChatRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteGroupChatRequest.m; sourceTree = "<group>"; };
+		24A021FD2196819C006AB284 /* GroupChatListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupChatListRequest.m; sourceTree = "<group>"; };
+		24A021FE2196819C006AB284 /* PostGroupChatImageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostGroupChatImageRequest.h; sourceTree = "<group>"; };
+		24A021FF2196819C006AB284 /* PostGroupChatTextRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostGroupChatTextRequest.h; sourceTree = "<group>"; };
+		24A022002196819C006AB284 /* AwemeListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwemeListRequest.h; sourceTree = "<group>"; };
+		24A022012196819D006AB284 /* UserRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRequest.m; sourceTree = "<group>"; };
+		24A022022196819D006AB284 /* VisitorRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorRequest.m; sourceTree = "<group>"; };
+		24A022032196819D006AB284 /* VisitorRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorRequest.h; sourceTree = "<group>"; };
+		24A022042196819D006AB284 /* PostGroupChatTextRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostGroupChatTextRequest.m; sourceTree = "<group>"; };
+		24A022052196819D006AB284 /* DeleteCommentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteCommentRequest.h; sourceTree = "<group>"; };
+		24A022062196819D006AB284 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		24A022072196819D006AB284 /* CommentListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentListRequest.h; sourceTree = "<group>"; };
+		24A022082196819D006AB284 /* GroupChatListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupChatListRequest.h; sourceTree = "<group>"; };
+		24A022092196819D006AB284 /* PostGroupChatImageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostGroupChatImageRequest.m; sourceTree = "<group>"; };
+		24A0220A2196819D006AB284 /* UserRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRequest.h; sourceTree = "<group>"; };
+		24A0220B2196819E006AB284 /* PostCommentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostCommentRequest.h; sourceTree = "<group>"; };
+		24A0220C2196819E006AB284 /* DeleteGroupChatRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteGroupChatRequest.h; sourceTree = "<group>"; };
+		24A02218219681EC006AB284 /* GroupChatListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupChatListResponse.m; sourceTree = "<group>"; };
+		24A02219219681EC006AB284 /* BaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		24A0221A219681EC006AB284 /* CommentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentResponse.h; sourceTree = "<group>"; };
+		24A0221B219681EC006AB284 /* GroupChatResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupChatResponse.h; sourceTree = "<group>"; };
+		24A0221C219681ED006AB284 /* VisitorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorResponse.h; sourceTree = "<group>"; };
+		24A0221D219681ED006AB284 /* CommentListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentListResponse.m; sourceTree = "<group>"; };
+		24A0221E219681ED006AB284 /* BaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		24A0221F219681ED006AB284 /* GroupChatResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupChatResponse.m; sourceTree = "<group>"; };
+		24A02220219681ED006AB284 /* UserResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserResponse.h; sourceTree = "<group>"; };
+		24A02221219681ED006AB284 /* AwemeResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwemeResponse.h; sourceTree = "<group>"; };
+		24A02222219681ED006AB284 /* CommentListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentListResponse.h; sourceTree = "<group>"; };
+		24A02223219681ED006AB284 /* AwemeResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwemeResponse.m; sourceTree = "<group>"; };
+		24A02224219681ED006AB284 /* UserResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserResponse.m; sourceTree = "<group>"; };
+		24A02225219681EE006AB284 /* VisitorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorResponse.m; sourceTree = "<group>"; };
+		24A02226219681EE006AB284 /* AwemeListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwemeListResponse.h; sourceTree = "<group>"; };
+		24A02227219681EE006AB284 /* AwemeListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwemeListResponse.m; sourceTree = "<group>"; };
+		24A02228219681EE006AB284 /* GroupChatListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupChatListResponse.h; sourceTree = "<group>"; };
+		24A02229219681EE006AB284 /* CommentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentResponse.m; sourceTree = "<group>"; };
+		24A0223321968380006AB284 /* NetworkHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NetworkHelper.h; path = DouYin/Network/NetworkHelper.h; sourceTree = SOURCE_ROOT; };
+		24A0223421968380006AB284 /* NetworkHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NetworkHelper.m; path = DouYin/Network/NetworkHelper.m; sourceTree = SOURCE_ROOT; };
+		24A0223621968394006AB284 /* WebSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebSocketManager.h; sourceTree = "<group>"; };
+		24A0223721968394006AB284 /* WebSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSocketManager.m; sourceTree = "<group>"; };
+		24A0223921968428006AB284 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		24A0223A21968428006AB284 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		24A0223B21968428006AB284 /* GroupChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupChat.h; sourceTree = "<group>"; };
+		24A0223C21968428006AB284 /* Aweme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aweme.h; sourceTree = "<group>"; };
+		24A0223D21968428006AB284 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		24A0223E21968428006AB284 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		24A0223F21968428006AB284 /* Visitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Visitor.m; sourceTree = "<group>"; };
+		24A0224021968429006AB284 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		24A0224121968429006AB284 /* PictureInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureInfo.h; sourceTree = "<group>"; };
+		24A0224221968429006AB284 /* Aweme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aweme.m; sourceTree = "<group>"; };
+		24A0224321968429006AB284 /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
+		24A0224421968429006AB284 /* GroupChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupChat.m; sourceTree = "<group>"; };
+		24A0224521968429006AB284 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		24A0224621968429006AB284 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		24A0224721968429006AB284 /* PictureInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureInfo.m; sourceTree = "<group>"; };
+		24A022482196842A006AB284 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		24A022492196842A006AB284 /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		24A0224A2196842A006AB284 /* Visitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
 		33DBA13D459BC16B6BDD53E9 /* Pods-DouYin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYin.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYin/Pods-DouYin.release.xcconfig"; sourceTree = "<group>"; };
 		3DDEE07CE7F73EAC40D48D59 /* libPods-DouYin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouYin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -159,10 +258,14 @@
 		245C0282218C4CAA004C7414 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				245C0286218C4CAA004C7414 /* HttpResponse */,
 				245C0284218C4CAA004C7414 /* HttpRequest */,
+				245C0286218C4CAA004C7414 /* HttpResponse */,
 				245C0283218C4CAA004C7414 /* WebCacheHelpler.h */,
 				245C0285218C4CAA004C7414 /* WebCacheHelpler.m */,
+				24A0223321968380006AB284 /* NetworkHelper.h */,
+				24A0223421968380006AB284 /* NetworkHelper.m */,
+				24A0223621968394006AB284 /* WebSocketManager.h */,
+				24A0223721968394006AB284 /* WebSocketManager.m */,
 			);
 			name = Network;
 			path = ../../../Douyin/DouYin/DouYin/Network;
@@ -171,6 +274,28 @@
 		245C0284218C4CAA004C7414 /* HttpRequest */ = {
 			isa = PBXGroup;
 			children = (
+				24A022002196819C006AB284 /* AwemeListRequest.h */,
+				24A021F72196819B006AB284 /* AwemeListRequest.m */,
+				24A022062196819D006AB284 /* BaseRequest.h */,
+				24A021FB2196819C006AB284 /* BaseRequest.m */,
+				24A022072196819D006AB284 /* CommentListRequest.h */,
+				24A021FA2196819C006AB284 /* CommentListRequest.m */,
+				24A022052196819D006AB284 /* DeleteCommentRequest.h */,
+				24A021F92196819C006AB284 /* DeleteCommentRequest.m */,
+				24A0220C2196819E006AB284 /* DeleteGroupChatRequest.h */,
+				24A021FC2196819C006AB284 /* DeleteGroupChatRequest.m */,
+				24A022082196819D006AB284 /* GroupChatListRequest.h */,
+				24A021FD2196819C006AB284 /* GroupChatListRequest.m */,
+				24A0220B2196819E006AB284 /* PostCommentRequest.h */,
+				24A021F82196819C006AB284 /* PostCommentRequest.m */,
+				24A021FE2196819C006AB284 /* PostGroupChatImageRequest.h */,
+				24A022092196819D006AB284 /* PostGroupChatImageRequest.m */,
+				24A021FF2196819C006AB284 /* PostGroupChatTextRequest.h */,
+				24A022042196819D006AB284 /* PostGroupChatTextRequest.m */,
+				24A0220A2196819D006AB284 /* UserRequest.h */,
+				24A022012196819D006AB284 /* UserRequest.m */,
+				24A022032196819D006AB284 /* VisitorRequest.h */,
+				24A022022196819D006AB284 /* VisitorRequest.m */,
 			);
 			path = HttpRequest;
 			sourceTree = "<group>";
@@ -178,6 +303,24 @@
 		245C0286218C4CAA004C7414 /* HttpResponse */ = {
 			isa = PBXGroup;
 			children = (
+				24A02226219681EE006AB284 /* AwemeListResponse.h */,
+				24A02227219681EE006AB284 /* AwemeListResponse.m */,
+				24A02221219681ED006AB284 /* AwemeResponse.h */,
+				24A02223219681ED006AB284 /* AwemeResponse.m */,
+				24A02219219681EC006AB284 /* BaseResponse.h */,
+				24A0221E219681ED006AB284 /* BaseResponse.m */,
+				24A02222219681ED006AB284 /* CommentListResponse.h */,
+				24A0221D219681ED006AB284 /* CommentListResponse.m */,
+				24A0221A219681EC006AB284 /* CommentResponse.h */,
+				24A02229219681EE006AB284 /* CommentResponse.m */,
+				24A02228219681EE006AB284 /* GroupChatListResponse.h */,
+				24A02218219681EC006AB284 /* GroupChatListResponse.m */,
+				24A0221B219681EC006AB284 /* GroupChatResponse.h */,
+				24A0221F219681ED006AB284 /* GroupChatResponse.m */,
+				24A02220219681ED006AB284 /* UserResponse.h */,
+				24A02224219681ED006AB284 /* UserResponse.m */,
+				24A0221C219681ED006AB284 /* VisitorResponse.h */,
+				24A02225219681EE006AB284 /* VisitorResponse.m */,
 			);
 			path = HttpResponse;
 			sourceTree = "<group>";
@@ -185,6 +328,24 @@
 		245C0287218C4CAB004C7414 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				24A0223C21968428006AB284 /* Aweme.h */,
+				24A0224221968429006AB284 /* Aweme.m */,
+				24A0223921968428006AB284 /* BaseModel.h */,
+				24A0224021968429006AB284 /* BaseModel.m */,
+				24A0224521968429006AB284 /* Comment.h */,
+				24A0223A21968428006AB284 /* Comment.m */,
+				24A0223B21968428006AB284 /* GroupChat.h */,
+				24A0224421968429006AB284 /* GroupChat.m */,
+				24A022482196842A006AB284 /* Music.h */,
+				24A0224321968429006AB284 /* Music.m */,
+				24A0224121968429006AB284 /* PictureInfo.h */,
+				24A0224721968429006AB284 /* PictureInfo.m */,
+				24A0223E21968428006AB284 /* User.h */,
+				24A0223D21968428006AB284 /* User.m */,
+				24A0224621968429006AB284 /* Video.h */,
+				24A022492196842A006AB284 /* Video.m */,
+				24A0224A2196842A006AB284 /* Visitor.h */,
+				24A0223F21968428006AB284 /* Visitor.m */,
 			);
 			name = Entity;
 			path = ../../../Douyin/DouYin/DouYin/Entity;
@@ -248,6 +409,7 @@
 		245C029E218C4D5A004C7414 /* AwemeList */ = {
 			isa = PBXGroup;
 			children = (
+				24A021F02196734D006AB284 /* AVPlayer */,
 			);
 			path = AwemeList;
 			sourceTree = "<group>";
@@ -266,6 +428,17 @@
 				245C02A1218C4D5A004C7414 /* UserHomePageController.m */,
 			);
 			path = UserHomePage;
+			sourceTree = "<group>";
+		};
+		24A021F02196734D006AB284 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				24A021F421967F85006AB284 /* AVPlayerView.h */,
+				24A021F521967F85006AB284 /* AVPlayerView.m */,
+				24A021F121967399006AB284 /* AVPlayerManager.h */,
+				24A021F221967399006AB284 /* AVPlayerManager.m */,
+			);
+			path = AVPlayer;
 			sourceTree = "<group>";
 		};
 		2686DEC47189234D0CCBD3AB /* Frameworks */ = {
@@ -389,18 +562,51 @@
 			files = (
 				245C0297218C4CAB004C7414 /* UIImageView+WebCache.m in Sources */,
 				245C025D218C4B80004C7414 /* main.m in Sources */,
+				24A0224D2196842A006AB284 /* Visitor.m in Sources */,
+				24A022122196819E006AB284 /* DeleteGroupChatRequest.m in Sources */,
 				245C0298218C4CAB004C7414 /* WebCacheHelpler.m in Sources */,
+				24A0222C219681EE006AB284 /* BaseResponse.m in Sources */,
+				24A0220D2196819E006AB284 /* AwemeListRequest.m in Sources */,
 				245C0296218C4CAB004C7414 /* UIWindow+Extension.m in Sources */,
 				245C0291218C4CAB004C7414 /* NSTextAttachment+Emotion.m in Sources */,
+				24A022532196842A006AB284 /* Video.m in Sources */,
+				24A0224C2196842A006AB284 /* User.m in Sources */,
 				245C02A4218C4D5A004C7414 /* BaseViewController.m in Sources */,
 				245C0290218C4CAB004C7414 /* NSNotification+Extension.m in Sources */,
+				24A0222D219681EE006AB284 /* GroupChatResponse.m in Sources */,
+				24A022522196842A006AB284 /* PictureInfo.m in Sources */,
 				245C0293218C4CAB004C7414 /* CADisplayLink+Tool.m in Sources */,
 				245C0294218C4CAB004C7414 /* NSDate+Extension.m in Sources */,
+				24A022512196842A006AB284 /* GroupChat.m in Sources */,
+				24A022112196819E006AB284 /* BaseRequest.m in Sources */,
+				24A022162196819E006AB284 /* PostGroupChatTextRequest.m in Sources */,
+				24A022152196819E006AB284 /* VisitorRequest.m in Sources */,
+				24A0224E2196842A006AB284 /* BaseModel.m in Sources */,
+				24A02231219681EE006AB284 /* AwemeListResponse.m in Sources */,
 				245C0292218C4CAB004C7414 /* UIImage+Extension.m in Sources */,
+				24A0223521968380006AB284 /* NetworkHelper.m in Sources */,
+				24A0222F219681EE006AB284 /* UserResponse.m in Sources */,
 				245C024F218C4B7E004C7414 /* AppDelegate.m in Sources */,
+				24A021F321967399006AB284 /* AVPlayerManager.m in Sources */,
+				24A022142196819E006AB284 /* UserRequest.m in Sources */,
+				24A0224B2196842A006AB284 /* Comment.m in Sources */,
+				24A021F621967F85006AB284 /* AVPlayerView.m in Sources */,
+				24A022102196819E006AB284 /* CommentListRequest.m in Sources */,
 				245C0295218C4CAB004C7414 /* NSString+Extension.m in Sources */,
+				24A022172196819E006AB284 /* PostGroupChatImageRequest.m in Sources */,
+				24A0222B219681EE006AB284 /* CommentListResponse.m in Sources */,
+				24A02232219681EE006AB284 /* CommentResponse.m in Sources */,
+				24A0224F2196842A006AB284 /* Aweme.m in Sources */,
 				245C029A218C4CAB004C7414 /* WebPImage.m in Sources */,
+				24A022132196819E006AB284 /* GroupChatListRequest.m in Sources */,
+				24A022502196842A006AB284 /* Music.m in Sources */,
+				24A0220F2196819E006AB284 /* DeleteCommentRequest.m in Sources */,
+				24A0222E219681EE006AB284 /* AwemeResponse.m in Sources */,
+				24A0222A219681EE006AB284 /* GroupChatListResponse.m in Sources */,
+				24A02230219681EE006AB284 /* VisitorResponse.m in Sources */,
+				24A0223821968394006AB284 /* WebSocketManager.m in Sources */,
 				245C028F218C4CAB004C7414 /* NSAttributedString+Extension.m in Sources */,
+				24A0220E2196819E006AB284 /* PostCommentRequest.m in Sources */,
 				245C02A5218C4D5A004C7414 /* UserHomePageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
